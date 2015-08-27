@@ -1,4 +1,9 @@
-﻿using System;
+﻿using RiotSharp;
+using RiotSharp.GameEndpoint;
+using RiotSharp.MatchEndpoint;
+using RiotSharp.StaticDataEndpoint;
+using RiotSharp.SummonerEndpoint;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Upset.Models;
@@ -11,7 +16,7 @@ namespace Upset.Functionality
         private static Dictionary<string, List<ItemStatic>> PotentialUpgrades;
         private static ItemListStatic Items;
         private static ChampionListStatic Champions;
-        private static string API_KEY = "ef9fe4c6-c0d3-4d07-87a3-38c50626234f";
+        private static string API_KEY = "Get your own please ♥";
         private static int NEW_GROUP_FRAME_GAP = 3;
         private static int MAX_TRIES = 5;
 
